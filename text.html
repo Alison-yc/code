@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>    
+    
+    <!-- 姓名<input type="text" name="userNum" id="numId" onfocus="run1()" onblur="run2()" /><br /> 
+    编号<input type="text" name="userName" id="nameId" /><span id="uspan"></span><br />
+
+
+<input type="button" value="􏰹􏰺" onclick="create()" />  -->
+
+<select name="" onchange="run1()" id="">
+<option value="">--请选择--</option>
+<option value="">河北</option>
+<option value="">山西</option>
+<option value="">山西</option>
+<option value="">山西</option>
+<option value="">山西</option>
+<option value="">山西</option>
+<option value="">山西</option>
+<option value="">山西</option>
+<option value="">东北</option>
+<option value="">山西</option>
+</select><span id="uspan"></span>
+</body>
+<script type="text/javascript">
+function run1(){
+    var uspan = document.getElementById('uspan');
+uspan.innerHTML="不能输入特殊字符"
+}
+function run2(){
+    var uspan = document.getElementById('uspan');
+uspan.innerHTML="用户名已存在"
+}
+
+function create(){ window.open("child.html","child","width=400,height=200"); }
+</script>
+</html>
+
